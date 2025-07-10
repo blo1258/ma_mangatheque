@@ -1,0 +1,21 @@
+{
+    "name": "your_name/ma_mangatheque",
+    "description": "Ma Mangatheque - CRUD ",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bulent Toruk",
+            "email": "bulenttoruk@example.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "controller/",
+            "model/"
+        ]
+    },
+    "require": {
+        "altorouter/altorouter": "1.1.0"
+    }
+}
