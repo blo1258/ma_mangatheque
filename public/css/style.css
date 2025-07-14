@@ -316,6 +316,19 @@ h1, h2 {
     margin-bottom: 20px;
 }
 
+.homepage-container {
+        padding: 20px;
+    }
+    .jumbotron {
+        background-color: #e9ecef;
+        padding: 2rem 2rem;
+        border-radius: 0.3rem;
+    }
+    .card-img-top {
+        height: 200px; /* Kapak resimleri için sabit yükseklik */
+        object-fit: cover; /* Resmi kutuya sığdır */
+    }
+
 /* Responsive Ayarlar */
 @media (max-width: 768px) {
     .site-header {

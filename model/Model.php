@@ -6,9 +6,9 @@ abstract class Model {
     // Veritabanı bağlantısını kurar (sadece bir kez çağrılır)
     private static function setDb(){
         $host = 'localhost';
-        $dbName = 'ma_mangatheque'; // Veritabanı adınız
+        $dbName = 'ma_mangatheque'; 
         $user = 'root';
-        $pass = 'root'; // WampServer varsayılan parolası genellikle boş
+        $pass = 'root'; 
         $charset = 'utf8mb4'; 
 
         $dsn = "mysql:host=$host;dbname=$dbName;charset=$charset";

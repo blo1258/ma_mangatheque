@@ -12,6 +12,9 @@ if (session_status() == PHP_SESSION_NONE) {
 // Composer autoload dosyasını dahil et (Mutlak yol kullanıyoruz)
 // Bu dosya, AltoRouter dahil tüm bağımlılıkları otomatik olarak yükleyecektir.
 require __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/model/Model.php';
+require_once __DIR__ . '/model/ModelManga.php';
+
 
 // AltoRouter nesnesini oluştur
 $router = new AltoRouter();
